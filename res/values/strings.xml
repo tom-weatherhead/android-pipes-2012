@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="hello">Hello World, PipesActivity!</string>
+    <string name="app_name">Pipes</string>
+    <string name="standard_message">Click on a square to rotate the pipe segment within it.  The goal is to connect all of the pipe segments together, so that they all turn green.</string>
+    <string name="victory_message">Victory!  Click on any square to start a new puzzle.</string>
+</resources>

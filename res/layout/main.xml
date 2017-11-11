@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <org.tomweatherhead.pipes.PipesView
+      android:id="@+id/pipes"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+   	  android:layout_margin="10dip"
+      android:layout_centerHorizontal="true" />
+    
+    <TextView
+      android:id="@+id/text"
+	  android:text="@string/standard_message"
+	  android:visibility="visible"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:layout_below="@id/pipes"
+      android:gravity="center_horizontal"
+      android:textColor="#88ffffff"
+      android:textSize="12sp" />
+    
+</RelativeLayout>
